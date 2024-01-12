@@ -1,0 +1,62 @@
+.container{
+    --bs-gutter-x: 0rem;
+}
+.homeSpacer{
+    height: 50px;
+}
+.openingBubbleWrapper{
+    margin: 0;
+    padding: 10px;
+    background-color: #F8F8F8;
+    border-radius: 25px;
+}
+.openingBubbleWrapper .col{
+    margin: 10px;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.openLineOne{
+    white-space: nowrap;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: min(42px, 7vw);
+}
+.openLineTwo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: min(28px, 5vw);
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+/* special style text */
+.sst{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #FD6000;
+}
+
+.alignCenterIMG{
+    /* Other Styles */
+    border-radius: 25%;
+    height: 450px;
+    width: 375px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+.imgOpenWrapper{
+    justify-content: center;
+}
+.socialButton{
+    padding: 15px;
+    margin: 10px;
+    background-color: #F8F8F8;
+    border-radius: 25px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+

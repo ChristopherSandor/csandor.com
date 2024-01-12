@@ -1,0 +1,65 @@
+.navbar{
+    background-color: transparent!important;
+    padding: 10px;
+}
+.navbar .container-fluid{
+    --bs-gutter-x: 0rem;
+}
+.navbar-brand{
+    font-size: min(42px, 7vw);
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #4721FF;
+    margin: 10px;
+}
+.navbar-brand:hover{
+    color: #4721FF;
+}
+.navbar-nav{
+    margin-left: auto!important;
+}
+.nav-item{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    background-color: #F8F8F8;
+    border-radius: 25px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.3s;
+}
+.nav-item:hover{
+    background-color: #131313;
+}
+.nav-item > a{
+    color: #FD6000;
+    font-size: 30px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.nav-item > a:hover{
+    color: #FD6000;
+    font-size: 30px;
+    font-weight: 400;
+}
+#navContact{
+    background-color: #FD6000;
+}
+#navContact > a{
+    color: white;
+    transition: 0.3s;
+}
+#navContact > a:hover{
+    color: #131313;
+}
+.navbar-toggler{
+    margin: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FD6000;
+}
+.navbar-toggler > i{
+    font-size: 25px;
+    color: white;
+}
