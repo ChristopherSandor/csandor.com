@@ -23,14 +23,11 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 10px;
-    background-color: #F8F8F8;
+    background-color: #FFF7F3;
     border-radius: 25px;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
     transition: 0.3s;
-}
-.nav-item:hover{
-    background-color: #131313;
 }
 .nav-item > a{
     color: #FD6000;
@@ -39,9 +36,8 @@
     transition: 0.3s;
 }
 .nav-item > a:hover{
-    color: #FD6000;
+    color: #131313;
     font-size: 30px;
-    font-weight: 400;
 }
 #navContact{
     background-color: #FD6000;

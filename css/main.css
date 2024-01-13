@@ -1,5 +1,8 @@
-.container{
+.container-xl{
     --bs-gutter-x: 0rem;
+}
+body{
+    background-color: white;
 }
 .homeSpacer{
     height: 50px;
@@ -7,8 +10,6 @@
 .openingBubbleWrapper{
     margin: 0;
     padding: 10px;
-    background-color: #F8F8F8;
-    border-radius: 25px;
 }
 .openingBubbleWrapper .col{
     margin: 10px;
@@ -16,47 +17,95 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.mainTextBody{
+    text-align: left;
+}
 .openLineOne{
-    white-space: nowrap;
+    white-space: normal;
+    /* white-space: nowrap; */
+    word-wrap: break-word;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: min(42px, 7vw);
+    font-size: 42px;
 }
 .openLineTwo{
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: min(28px, 5vw);
+    font-size: 28px;
     line-height: 2;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    white-space: nowrap;
+    white-space: normal;
+    /* white-space: nowrap; */
+    word-wrap: break-word;
 }
 
 /* special style text */
 .sst{
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    /* color: #FD6000; */
+}
+/* special rutgers text */
+.srt{
+    color: #cc0033;
+    font-weight: 00;
+}
+.srt > a{
+    color: #cc0033;
     font-weight: 800;
-    color: #FD6000;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .alignCenterIMG{
-    /* Other Styles */
-    border-radius: 25%;
-    height: 450px;
-    width: 375px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: block;
+    /* 5 x 7 Aspect Ratio the Image Needs to be */
+    width: 375px!important;
+    height: 525px!important;
+    float: right;
 }
-.imgOpenWrapper{
-    justify-content: center;
+#specialText{
+    width: 100%;
+    min-width: 557px!important;
 }
-.socialButton{
-    padding: 15px;
-    margin: 10px;
-    background-color: #F8F8F8;
-    border-radius: 25px;
-    font-size: 40px;
-    font-family: 'Raleway', sans-serif;
+@media (max-width: 991px) {
+
+    /* Old Code for the IMG, but this new code works for both IMG and TEXT */
+    /* .imgOpenWrapper {
+        text-align: center;
+    }
+    .alignCenterIMG {
+        float: none;
+        display: inline-block;
+    } */
+
+    .alignCenterIMG {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #specialText{
+        display: block;
+        justify-content: center;
+    }
+    .mainTextBody{
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+@media (max-width: 575px) {
+    #specialText{
+        width: 100%;
+        min-width: 250px!important;
+    }
+}
+@media (max-width: 420px){
+    .alignCenterIMG{
+        width: calc(375px - 20vw)!important;
+        height: calc(525px - 28vw)!important;
+    }
 }
 
