@@ -1,0 +1,82 @@
+.card-img-top{
+    text-align: center;
+    font-size: 4rem;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    padding-top: none;
+    padding-bottom: none;
+}
+.card{
+    --bs-card-border-width: 3!important;
+    border-color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+    background-color: transparent;
+
+}
+.card:hover{
+    border-color: black;
+    --bs-card-border-width: 3!important;
+}
+.card .btn {
+    border-radius: 25px;
+    font-size: 20px;
+}
+.card .btn:hover {
+    border-radius: 25px;
+    color: #f6f6f6;
+}
+.cardColWrapper{
+    justify-content: center;
+    display: grid;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.subscript-text{
+    font-style: italic;
+    font-size: 16px;
+}
+.card-title{
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.card-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.card-text-top{
+    font-size: 18px;
+}
+.outter-ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0; /* Aligns the UL to the bottom of the parent */
+    left: 50%; /* Moves the left edge of the UL to the center of the parent */
+    transform: translateX(-50%); /* Shifts the UL back by half its own width to center it */
+    width: auto; /* Or set a specific width if needed */
+}
+.inner-li {
+    margin-right: 4px; /* Adjust the space between the buttons */
+}
+.inner-li a{
+    width: 163px;
+}
+.left-btn{
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+
+}
+.right-btn{
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+}
+.deleteMyself{
+    display: none!important;
+}
+.fullBtn{
+    border-radius: 25px!important;
+}

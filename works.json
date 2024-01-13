@@ -1,0 +1,194 @@
+[
+    {
+      "name": "portfolio-v5",
+      "type": 0,
+      "link": "https://github.com/ChristopherSandor/portfolio-v5",
+      "live": "https://christophersandor.github.io/portfolio-v5/",
+      "about": "A remastered look into my portfolio",
+      "active": "finished"
+    },
+    {
+      "name": "portfolio-v4",
+      "type": 2,
+      "link": "https://github.com/ChristopherSandor/portfolio-v4",
+      "live": "https://christophersandor.github.io/portfolio-v4/",
+      "about": "A new verison of my portfolio, and its dynamic this time!",
+      "active": "finished"
+    },
+    {
+      "name": "NetNinja-Tutorial",
+      "type": 2,
+      "link": "https://github.com/ChristopherSandor/NetNinja-Tutorial",
+      "live": "https://christophersandor.github.io/NetNinja-Tutorial/",
+      "about": "Followed a tutorial for a classwork assignment, learnt how to use JavaScript dynamically",
+      "active": "finished"
+    },
+    {
+      "name": "csandor.com",
+      "type": 2,
+      "link": "https://github.com/ChristopherSandor/csandor.com",
+      "live": "www.csandor.com",
+      "about": "After many different creations of my portfilio for assignments; this will be the definitive one",
+      "active": "active"
+    },
+    {
+      "name": "AOS",
+      "type": 2,
+      "link": "https://github.com/ChristopherSandor/AOS",
+      "live": "https://christophersandor.github.io/AOS/",
+      "about": "An assignment learning how to implement another persons JavaScript Library",
+      "active": "finished"
+    },
+    {
+      "name": "Rock Paper Scissors",
+      "type": 2,
+      "link": "https://github.com/ChristopherSandor/RockPaperScissors",
+      "live": "https://christophersandor.github.io/RockPaperScissors/",
+      "about": "Rock, Paper, Scissors, Says Shoot!!",
+      "active": "finished"
+    },
+    {
+      "name": "Minimo",
+      "type": 1,
+      "link": "https://github.com/ChristopherSandor/Minimo",
+      "live": "https://christophersandor.github.io/Minimo/",
+      "about": "A incomplete timed Final Project for my web design class",
+      "active": "finished"
+    },
+    {
+      "name": "Formsheet",
+      "type": 1,
+      "link": "https://github.com/ChristopherSandor/Formsheet",
+      "live": "https://christophersandor.github.io/Formsheet/",
+      "about": "Create a form sheet with basic HTML",
+      "active": "finished"
+    },
+    {
+      "name": "Sandor-p3",
+      "type": 0,
+      "link": "https://github.com/ChristopherSandor/Sandor-p3",
+      "live": "https://christophersandor.github.io/Sandor-p3/",
+      "about": "The third and final assignment for the NJIT web design course",
+      "active": "finished"
+    },
+    {
+      "name": "Unique Crete",
+      "type": 0,
+      "link": "https://github.com/ChristopherSandor/UniqueCreteSite",
+      "live": "https://christophersandor.github.io/UniqueCreteSite/",
+      "about": "A template used to create a website for UniqueCrete, a company for one of the teachers at Freehold Borough Highschool",
+      "active": "finsihed"
+    },
+    {
+      "name": "JavaScript-JSON-HTTP-Requests",
+      "type": 2,
+      "link": "https://github.com/ChristopherSandor/JavaScript-JSON-HTTP-Requests",
+      "live": "https://christophersandor.github.io/JavaScript-JSON-HTTP-Requests/",
+      "about": "Tests for all JavaScript, JSON and HTTP Requests working in the background",
+      "active": "finished"
+    },
+    {
+      "name": "portfolio-v5.5",
+      "type": 2,
+      "link": "https://github.com/ChristopherSandor/portfolio-v5.5",
+      "live": "portfolio-v5.5",
+      "about": "Just a touch up and different look on portfolio-v5 ",
+      "active": "finished"
+    },
+    {
+      "name": "Gravitational Force",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/Gravitational-Force",
+      "live": "",
+      "about": "First Coding Assignment at Rutgers; using very simple math operators",
+      "active": "finished"
+    },
+    {
+      "name": "Palindrome",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/Palindrome",
+      "live": "",
+      "about": "Checking inputs from console without using 'if statements'",
+      "active": "finished"
+    },
+    {
+      "name": "Dog Walker",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/Dog-Walker",
+      "live": "",
+      "about": "A fun project calculating dog walking routes",
+      "active": "finished"
+    },
+    {
+      "name": "Rutgers Buses",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/Buses",
+      "live": "",
+      "about": "Finding patterns in bus numbers and figuring out the route of the bus",
+      "active": "finished"
+    },
+    {
+      "name": "Rutgers BusStop",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/BusStop",
+      "live": "",
+      "about": "Finding possible Bus Stops from many different inputs",
+      "active": "finished"
+    },
+    {
+      "name": "Staircase Builder",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/StaircaseBuilder",
+      "live": "",
+      "about": "A stair case builder, builds from number of bricks inputed, from bottom right to top left",
+      "active": "finished"
+    },
+    {
+      "name": "Air Particles",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/Air-Particles",
+      "live": "",
+      "about": "Checking air particles from given data and comparing it to define values",
+      "active": "finished"
+    },
+    {
+      "name": "ISBN",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/ISBN",
+      "live": "",
+      "about": "Calculating and creating custome ISBN values for different books",
+      "active": "finished"
+    },
+    {
+      "name": "Communities",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/Communities",
+      "live": "",
+      "about": "Looking at data in an CSV files and looking at trends appearing in different communities",
+      "active": "finished"
+    },
+    {
+      "name": "Recursive Append",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/Recursive-Append",
+      "live": "",
+      "about": "Recursively appends strings, (first Recursive project)",
+      "active": "finished"
+    },
+    {
+      "name": "DNA",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/DNA",
+      "live": "",
+      "about": "Compares DNA (STR's), looking at parents and determining matches in others and gene types",
+      "active": "finished"
+    },
+    {
+      "name": "NYPD - Stop And Frisk",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/NYPD-StopAndFrisk",
+      "live": "",
+      "about": "Compares different NYPD data of different arrests, looking at things such as, year, race, age, gender, frisked, etc",
+      "active": "finished"
+    }
+]
