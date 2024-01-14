@@ -32,8 +32,8 @@
     margin-bottom: 1vw;
 }
 .subscript-text{
-    font-style: italic;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18;
 }
 .card-title{
     font-weight: 600;
