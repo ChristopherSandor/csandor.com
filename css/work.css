@@ -80,3 +80,104 @@
 .fullBtn{
     border-radius: 25px!important;
 }
+
+
+
+
+/*
+Opening Section Styles:
+*/
+
+.card-top-top{
+    text-align: center;
+    font-size: 30px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body.card-body-top {
+    text-align: center; /* Center the text */
+}
+.card-body-top h2{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.accordion-button span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #FD6000;
+}
+#works{
+    padding: 20px;
+}
+.accordion{
+    --bs-accordion-border-radius: 25px;
+    --bs-accordion-border-width: 0;
+    --bs-accordion-inner-border-radius: 25px;
+    --bs-accordion-active-bg: #FFF7F3;
+    --bs-accordion-bg: #FFF7F3;
+    --bs-accordion-btn-focus-box-shadow: 0;
+}
+.accordion-body{
+    background-color: #FFF7F3!important;
+    border: 0px solid #FFF7F3;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top: 0;
+}
+@media (max-width: 1070px) {
+    .card-top-top{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 50px;
+        width: 85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.col-top-wrapper{
+    justify-content: center;
+    display: grid;
+}
+.cert-text{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8;
+    padding: 20px;
+}
+.cert-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cert-img-item{
+    justify-self: center;
+}
+.PDF-Download{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    padding: 20px;
+    transition: 0.3s;
+    color: black;
+}
+
+.PDF-Download .bi{
+    font-size: 25px;
+}
+.removeAtagStyles{
+    color: black;
+    text-decoration: none;
+}
+.removeAtagStyles:hover{
+    transition: 0.3s;
+    color: #FD6000;
+    text-decoration: none;
+}

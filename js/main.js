@@ -27,7 +27,6 @@ const vue_app = Vue.createApp({
       return {
           // Holds Literally everything
           object: [],
-          icon: "content/workICON.png"
         }
     },
 
@@ -113,5 +112,28 @@ const vue_app = Vue.createApp({
             }
 })
 
-
 vue_app.mount("#workSection");
+
+
+
+// New Vue Object
+// Meant for the opening section to "works"
+//
+
+const vue_app_2 = Vue.createApp({
+
+    // Creating my work Object and putting all the JSON stuff in this Object called object.
+    created () {
+          fetch('qual.json').then(response => response.json()).then(json => {
+                this.object_2 = json;
+          })
+    },
+    data() {
+      return {
+          // Holds Literally everything
+          object_2: [],
+        }
+    }
+})
+
+vue_app_2.mount("#works");

@@ -1,0 +1,57 @@
+[
+    {
+      "name": "HTML",
+      "color": "#FD6000",
+      "path": "bi-filetype-html"
+    },
+    {
+      "name": "CSS",
+      "color": "#28a9df",
+      "path": "bi-filetype-css"
+    },
+    {
+      "name": "JavaScript",
+      "color": "#ffde24",
+      "path": "bi-filetype-js"
+    },
+    {
+      "name": "JSON",
+      "color": "#9076a6",
+      "path": "bi-filetype-json"
+    },
+    {
+      "name": "SCSS",
+      "color": "#be608b",
+      "path": "bi-filetype-scss"
+    },
+    {
+      "name": "Python",
+      "color": "#ffca1d",
+      "path": "bi-filetype-py"
+    },
+    {
+      "name": "Java",
+      "color": "#1665bf",
+      "path": "bi-filetype-java"
+    },
+    {
+      "name": "VBA",
+      "color": "#107a40",
+      "path": "bi-filetype-xlsx"
+    },
+    {
+      "name": "Photoshop",
+      "color": "#080040",
+      "path": "bi-filetype-psd"
+    },
+    {
+      "name": "Illustrator",
+      "color": "#ff9a00",
+      "path": "bi-filetype-ai"
+    },
+    {
+      "name": "Projects",
+      "color": "#ffc452",
+      "path": "bi-folder"
+    }
+]
