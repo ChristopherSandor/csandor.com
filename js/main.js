@@ -47,6 +47,12 @@ const vue_app = Vue.createApp({
                         return 'bi bi-filetype-js';
                     case 3:
                         return 'bi bi-filetype-java';
+                    case 4:
+                        return 'bi-filetype-css';
+                    case 5:
+                        return 'bi-filetype-json';
+                    case 6:
+                        return 'bi-filetype-ai';
                     default:
                         return 'bi bi-folder';
                   }
@@ -70,44 +76,36 @@ const vue_app = Vue.createApp({
               colorOfItem(x){
                 switch(x){
                     case 0:
+                        // Folder (Project)
                         return '#ffc452';
                     case 1:
+                        // HTML
                         return '#FD6000';
                     case 2:
+                        // JavaScript
                         return '#ffde24';
                     case 3:
+                        // Java
                         return '#1665bf';
+                    case 4:
+                        // CSS
+                        return '#28a9df';
+                    case 5:
+                        // JSON
+                        return '#9076a6';
+                    case 6:
+                        // Illustrator
+                        return '#ff9a00';
                     default:
+                        // Folder (Project)
                         return '#bc3200';
                 }
               },
               textOfColor(item){
-                switch(item.type){
-                    case 0:
-                        return 'color: ' + this.colorOfItem(0);
-                    case 1:
-                        return 'color: ' + this.colorOfItem(1);
-                    case 2:
-                        return 'color: ' + this.colorOfItem(2);
-                    case 3:
-                        return 'color: ' + this.colorOfItem(3);
-                    default:
-                        return 'color: ' + this.colorOfItem(0);
-                }
+                return 'color: ' + this.colorOfItem(item.type);
               },
               backgroundOfColor(item){
-                switch(item.type){
-                    case 0:
-                        return 'background-color: ' + this.colorOfItem(0);
-                    case 1:
-                        return 'background-color: ' + this.colorOfItem(1);
-                    case 2:
-                        return 'background-color: ' + this.colorOfItem(2);
-                    case 3:
-                        return 'background-color: ' + this.colorOfItem(3);
-                    default:
-                        return 'background-color: ' + this.colorOfItem(0);
-                }
+                return 'background-color: ' + this.colorOfItem(item.type);
               }
             }
 })

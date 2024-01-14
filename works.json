@@ -80,19 +80,59 @@
       "active": "finsihed"
     },
     {
-      "name": "JavaScript-JSON-HTTP-Requests",
-      "type": 2,
-      "link": "https://github.com/ChristopherSandor/JavaScript-JSON-HTTP-Requests",
-      "live": "https://christophersandor.github.io/JavaScript-JSON-HTTP-Requests/",
-      "about": "Tests for all JavaScript, JSON and HTTP Requests working in the background",
+      "name": "Season Icon Website",
+      "type": 6,
+      "link": "https://github.com/ChristopherSandor/SeasonIconWebsite",
+      "live": "https://christophersandor.github.io/SeasonIconWebsite/io-v5.5",
+      "about": "Using adobe illustrator Icons created by myself which had to be used in some degree in this website",
       "active": "finished"
     },
     {
       "name": "portfolio-v5.5",
       "type": 2,
       "link": "https://github.com/ChristopherSandor/portfolio-v5.5",
-      "live": "portfolio-v5.5",
+      "live": "https://christophersandor.github.io/portfolio-v5.5/",
       "about": "Just a touch up and different look on portfolio-v5 ",
+      "active": "finished"
+    },
+    {
+      "name": "JavaScript-JSON-HTTP-Requests",
+      "type": 5,
+      "link": "https://github.com/ChristopherSandor/JavaScript-JSON-HTTP-Requests",
+      "live": "https://christophersandor.github.io/JavaScript-JSON-HTTP-Requests/",
+      "about": "Tests for all JavaScript, JSON and HTTP Requests working in the background",
+      "active": "finished"
+    },
+    {
+      "name": "Among-Us",
+      "type": 4,
+      "link": "https://github.com/ChristopherSandor/Among-Us",
+      "live": "https://christophersandor.github.io/Among-Us/",
+      "about": "Was able to make artwork with basic CSS and HTML",
+      "active": "finished"
+    },
+    {
+      "name": "Falling Leaves",
+      "type": 4,
+      "link": "https://github.com/ChristopherSandor/Falling-Leaves",
+      "live": "https://christophersandor.github.io/Falling-Leaves/",
+      "about": "Very laggy falling leaves, based off a youtube video for a homework assignment ",
+      "active": "finished"
+    },
+    {
+      "name": "Eye Balls",
+      "type": 4,
+      "link": "https://github.com/ChristopherSandor/eyeballs",
+      "live": "https://christophersandor.github.io/eyeballs/",
+      "about": "A fun little peeping website, also based off a youtube video for a class assignment",
+      "active": "finished"
+    },
+    {
+      "name": "Thanksgiving Turkey",
+      "type": 4,
+      "link": "https://github.com/ChristopherSandor/ThanksGiving-Turkey",
+      "live": "https://christophersandor.github.io/ThanksGiving-Turkey/",
+      "about": "Made a turkey website, based of a youtube video for an assignment ",
       "active": "finished"
     },
     {
