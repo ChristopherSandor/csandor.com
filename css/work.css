@@ -153,6 +153,9 @@ Opening Section Styles:
     line-height: 1.8;
     padding: 20px;
 }
+.cert-text-wrapper{
+    min-width: 400px;
+}
 .cert-img{
     display: flex;
     align-items: center;

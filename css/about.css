@@ -1,0 +1,25 @@
+.about-text-items{
+    min-width: 400px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#about-section{
+    padding: 20px;
+}
+.about-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.about-text-bold{
+    font-weight: 400;
+    font-size: 36px;
+}
+.carousel-item img{
+    max-width: 100%;
+    min-width: 400px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
