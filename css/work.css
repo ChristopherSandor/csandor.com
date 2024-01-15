@@ -13,6 +13,9 @@
     background-color: transparent;
 
 }
+.cardColWrapper .card{
+    margin: 1vw;
+}
 .card:hover{
     border-color: black;
     --bs-card-border-width: 3!important;
@@ -112,9 +115,7 @@ Opening Section Styles:
     font-size: 20px;
     color: #FD6000;
 }
-#works{
-    padding: 20px;
-}
+
 .accordion{
     --bs-accordion-border-radius: 25px;
     --bs-accordion-border-width: 0;
@@ -164,7 +165,7 @@ Opening Section Styles:
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     text-align: right;
-    padding: 20px;
+    padding: 30px;
     transition: 0.3s;
     color: black;
 }
@@ -180,4 +181,33 @@ Opening Section Styles:
     transition: 0.3s;
     color: #FD6000;
     text-decoration: none;
+}
+
+/*
+ Title texts and Fonts
+ */
+
+ .work-title-text{
+    font-weight: 800;
+    color: #4721FF;
+    font-size: min(42px, 7vw);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 0px;
+ }
+
+ .work-title-sub-icon{
+    color: #4721FF;
+    text-align: center;
+    font-size: 42px;
+    padding-right: 5px;
+ }
+ #works{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#workSection{
+    padding-left: 20px;
+    padding-right: 20px;
 }

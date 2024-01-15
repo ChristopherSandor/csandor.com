@@ -51,7 +51,7 @@
                 <a class="nav-link" aria-current="page" href="#">about</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#works">works</a>
+                <a class="nav-link" href="#work">work</a>
               </li>
               <li class="nav-item" id="navContact">
                 <a class="nav-link" href="#">contact</a>
@@ -72,7 +72,7 @@
         <div class="col" id="specialText">
           <div class="mainTextBody">
             <h1 class="openLineOne">hello, i go by <span class="sst">cj</span></h1>
-            <h2 class="openLineTwo">i am a current student at<br><span class="srt"><a href="https://newbrunswick.rutgers.edu/">Rutgers University</a></span> studying Computer Science and Computer Engineering</h2>
+            <h2 class="openLineTwo">i am a current student attending<br><span class="srt"><a href="https://newbrunswick.rutgers.edu/">Rutgers University</a></span> studying Computer Science and Computer Engineering</h2>
           </div>
         </div>
         <div class="col imgOpenWrapper">
@@ -83,9 +83,24 @@
 
     </div>
 
-    <!-- About Section -->
-    <div></div>
+    <!-- Custom Themed Divider -->
+    <div class="container-xl custom-linebreak-container" id="work">
+      <div class="custom-linebreak"></div>
+    </div> 
 
+    <!-- About Title -->
+    <h2 class="work-title-text"><a class="work-title-sub-icon" href="https://www.linkedin.com/in/christopher-sandor-031622288" target="_blank" ><i class="bi bi-emoji-smile"></i></a> about cj</h2>
+
+    <!-- About Section -->
+   
+
+    <!-- Custom Themed Divider -->
+    <div class="container-xl custom-linebreak-container" id="work">
+      <div class="custom-linebreak"></div>
+    </div>
+
+    <!-- Work Opening Title -->
+      <h2 class="work-title-text"><a class="work-title-sub-icon" href="https://www.linkedin.com/in/christopher-sandor-031622288" target="_blank" ><i class="bi bi-linkedin"></i></a> résumé overview</h2>
 
     <!-- Work Opening Section -->
     <div class="container-xl" id="works">
@@ -95,7 +110,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              <span><i class="bi bi-person-fill-check"></i> my current set of skills</span>
+              <span><i class="bi bi-person-fill-check"></i>  my current set of skills</span>
             </button>
           </h2>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
@@ -119,11 +134,12 @@
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <span><i class="bi bi-patch-check-fill"></i> my current certifications</span>
+              <span><i class="bi bi-patch-check-fill"></i>  my current certifications</span>
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
+
               <div class="row cert-row">
                 <div class="col cert-img">
                   <a href="https://www.noctiskillbadge.org/badge/25709061" target="_blank"><img class="cert-img-item" src="content/knowledgebased-workforce-competency-credential.png"></a>
@@ -131,9 +147,11 @@
                 <div class="col">
                   <h1 class="cert-text">The NOCTI Workforce Competency Credential is earned by individuals meeting or exceeding the criterion-referenced cut score for the NOCTI Web Design industry-based certification.  The blueprint Web Design provides detail on the test content, including the standards and competencies to which questions are linked. This comprehensive list is reflective of the level of knowledge an individual must acquire in order to earn NOCTI certification.</h1>
                 </div>
+                <h1 class="PDF-Download">
+                  <span><a href="content/Christopher_Sandor_NOCTI_Certification.pdf" download="Christopher_Sandor_Nocti_Certification" class="removeAtagStyles"><i class="bi bi-filetype-pdf"></i>PDF Download</a></span>          
               </div>
-              <h1 class="PDF-Download">
-                <span><a href="content/Christopher_Sandor_NOCTI_Certification.pdf" download="Christopher_Sandor_Nocti_Certification" class="removeAtagStyles"><i class="bi bi-filetype-pdf"></i>PDF Download</a></span>
+              
+              
               </div>
               </h1>
             </div>
@@ -141,7 +159,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <span><i class="bi bi-building-fill"></i> my job & internship history</span>
+                  <span><i class="bi bi-building-fill"></i>  my job & internship history</span>
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -155,15 +173,22 @@
 
       </div>
 
+    <!-- Custom Themed Divider -->
+      <div class="container-xl custom-linebreak-container">
+        <div class="custom-linebreak"></div>
+      </div>
 
       </div>
+    <!-- Work Title -->
+
+    <h2 class="work-title-text"><a class="work-title-sub-icon" href="https://github.com/ChristopherSandor" target="_blank"><i class="bi bi-github"></i></a> projects </h2>
 
     <!-- Works Section -->
     <div id="workSection" class="container-xl">
 
       <div class="row">
         <div class="col cardColWrapper" v-for="(x, index) in object">
-        <div class="card" :class="typeOfProject(x)" style="width: 380px; height: 440px;">
+        <div class="card" :class="typeOfProject(x)" style="width: 360px; height: 420px;">
 
           <i :class="typeOfIcon(x)" :style="textOfColor(x)" class="card-img-top"></i>
           <div class="card-body">

@@ -111,3 +111,15 @@ body{
         height: calc(525px - 28vw)!important;
     }
 }
+
+.custom-linebreak{
+    width: 100%;
+    height: 2px;
+    background-color: #4721FF;
+    opacity: 0.3;
+}
+.custom-linebreak-container{
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
