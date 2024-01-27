@@ -12,7 +12,11 @@ window.onresize = window.onload = function() {
 
 
 
-// vue.js for works section
+// ------------------------------------------------------------------------------------------------- //
+
+
+
+// vue.js for works section (1)
 //
 //
 const vue_app = Vue.createApp({
@@ -114,7 +118,11 @@ vue_app.mount("#workSection");
 
 
 
-// New Vue Object
+// ------------------------------------------------------------------------------------------------- //
+
+
+
+// New Vue Object (2)
 // Meant for the opening section to "works"
 //
 
@@ -135,3 +143,32 @@ const vue_app_2 = Vue.createApp({
 })
 
 vue_app_2.mount("#works");
+
+
+
+// ------------------------------------------------------------------------------------------------- //
+
+
+
+// New Vue Object (3)
+// Mean for the Certifications Section
+//
+
+const vue_app_3 = Vue.createApp({
+
+    // Creating my work Object and putting all the JSON stuff in this Object called object.
+    created () {
+          fetch('cert.json').then(response => response.json()).then(json => {
+                this.object_3 = json;
+          })
+    },
+    data() {
+      return {
+          // Holds Literally everything
+          object_3: [],
+        }
+    }
+})
+
+vue_app_3.mount("#certification");
+

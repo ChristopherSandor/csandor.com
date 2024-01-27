@@ -22,7 +22,7 @@
 }
 .card .btn {
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .card .btn:hover {
     border-radius: 25px;
@@ -112,7 +112,7 @@ Opening Section Styles:
 .accordion-button span{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 18px;
     color: #FD6000;
 }
 
@@ -148,13 +148,21 @@ Opening Section Styles:
     display: grid;
 }
 .cert-text{
-    font-size: 18px;
+    font-size: min(18px, 7vw);
     font-family: 'Raleway', sans-serif;
     line-height: 1.8;
     padding: 20px;
 }
+.cert-text-title{
+    font-size: min(18px, 7vw);
+    padding: 20px;
+    padding-bottom: 0px!important;
+    font-weight: 600;
+}
 .cert-text-wrapper{
-    min-width: 400px;
+    min-width: 290px;
+    word-wrap: break-word;
+    white-space: normal;
 }
 .cert-img{
     display: flex;
@@ -174,11 +182,12 @@ Opening Section Styles:
 }
 
 .PDF-Download .bi{
-    font-size: 25px;
+    font-size: 24px;
 }
 .removeAtagStyles{
     color: black;
     text-decoration: none;
+    transition: 0.3s;
 }
 .removeAtagStyles:hover{
     transition: 0.3s;
@@ -205,8 +214,14 @@ Opening Section Styles:
     text-align: center;
     font-size: 42px;
     padding-right: 5px;
+    transition: 0.3s;
  }
- #works{
+ .work-title-sub-icon:hover{
+    color: #FD6000;
+
+ }
+
+#workSectionWrapper{
     padding-left: 20px;
     padding-right: 20px;
 }
