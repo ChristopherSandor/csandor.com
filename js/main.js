@@ -172,3 +172,28 @@ const vue_app_3 = Vue.createApp({
 
 vue_app_3.mount("#certification");
 
+// ------------------------------------------------------------------------------------------------- //
+
+
+
+// New Vue Object (4)
+// Mean for the Jobs/Internships Section
+//
+
+const vue_app_4 = Vue.createApp({
+
+    // Creating my work Object and putting all the JSON stuff in this Object called object.
+    created () {
+          fetch('career.json').then(response => response.json()).then(json => {
+                this.object_4 = json;
+          })
+    },
+    data() {
+      return {
+          // Holds Literally everything
+          object_4: [],
+        }
+    }
+})
+
+vue_app_4.mount("#career");

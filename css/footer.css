@@ -1,0 +1,90 @@
+#footer{
+    background: rgb(71,33,255);
+    background: -moz-linear-gradient(175deg, rgba(71,33,255,1) 0%, rgba(55,26,194,1) 100%);
+    background: -webkit-linear-gradient(175deg, rgba(71,33,255,1) 0%, rgba(55,26,194,1) 100%);
+    background: linear-gradient(175deg, rgba(71,33,255,1) 0%, rgba(55,26,194,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4721ff",endColorstr="#371ac2",GradientType=1);
+}
+.cardContact{
+    padding: 20px;
+}
+.cardContactWrapper{
+    background-color: transparent;
+    max-width: 720px;
+}
+.form-control{
+    border-color: transparent;
+    border-width: 3px;
+    border-radius: 25px;
+    background-color: white;
+}
+.form-control:focus, .form-control:active {
+    outline: #FD6000 !important;
+    box-shadow: none;
+    border-color: #FD6000;
+    background-color: #f6f6f6;
+ }
+ ::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+ }
+#left-form{
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+#right-form{
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+#left-form input{
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+}
+#right-form input{
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+}
+
+.form-textBox{
+    border-top-right-radius: 10px!important;
+    border-top-left-radius: 10px!important;
+    padding-top: 4px;
+    resize: none;
+}
+.form-SendBtn{
+    margin-top: 4px;
+    background-color: #FD6000;
+    border: none;
+    color: white;
+    transition: 0.3s;
+    width: 100px;
+    height: 50px;
+}
+.form-SendBtn:hover{
+    transition: 0.3s;
+    background-color: #FD6000!important;
+    color: black!important;
+}
+.footer-title{
+    font-size: min(56px, 7vw);
+    font-weight: 700;
+    color: white;
+    margin: 20px;
+}
+
+@media (max-width: 1000px) {
+    .cardContactWrapper{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-title{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

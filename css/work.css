@@ -151,11 +151,11 @@ Opening Section Styles:
     font-size: min(18px, 7vw);
     font-family: 'Raleway', sans-serif;
     line-height: 1.8;
-    padding: 20px;
+    padding: 15px;
 }
 .cert-text-title{
     font-size: min(18px, 7vw);
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 0px!important;
     font-weight: 600;
 }
@@ -228,4 +228,7 @@ Opening Section Styles:
 #workSection{
     padding-left: 20px;
     padding-right: 20px;
+}
+.timeStyleWork{
+    font-style: italic;
 }

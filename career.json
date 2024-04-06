@@ -1,18 +1,11 @@
 [
     {
     "job": "Medi-Solutions Insurance Agency, LLC",
-    "jobTitle": "I.T Technician",
+    "jobTitle": "I.T Support",
     "icon": "content/medi-solutions.png",
     "iconLink": "https://www.medi-solutions.org/",
-    "text": "lorem lore lorem ghjreighreioughrepoiuhgreiphugreiopuhgoipurehgoipurehgopiurehgpoireuhgpiourehg",
-    "year": "2021 - 2024"
-    },
-    {
-    "job": "Medi-Solutions Insurance Agency, LLC",
-    "jobTitle": "Administrative Assistant",
-    "icon": "content/medi-solutions.png",
-    "iconLink": "https://www.medi-solutions.org/",
-    "text": "ghjreighreioughrepoiuhgreiphugreiopuhgoipurehgoipurehgopiurehgpoireuhgpiourehg",
-    "year": "2024 - current"
+    "text": "Managed and updated a comprehensive database for thousands of insurance agents and agencies ensuring accessibility. Support and maintain an online portal for Medi-Solutions agents and agencies, enhancing user experience. Contributed to the commission process, assisting in the calculation and processing of payments with accuracy. Developed and implemented VBA scripts to streamline the commission payment process, improving efficiency and reducing miscalculations Monitored equipment performance, ensuring it met operational standards and replaced as needed.",
+    "year": "2021-Present",
+    "type": "Job"
     }
 ]

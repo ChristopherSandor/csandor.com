@@ -22,6 +22,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/work.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
 
     <!-- ICON -->
     <link rel="ICON" href="content/CS-LOGO-4.png" type="image/ico" />
@@ -63,7 +64,7 @@
                 <a class="nav-link" href="#work">work</a>
               </li>
               <li class="nav-item" id="navContact">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="#contact">contact</a>
               </li>
 
             </ul>
@@ -86,60 +87,10 @@
         </div>
         <div class="col imgOpenWrapper">
           <!-- img -->
-          <img class="alignCenterIMG" src="content/Swing Set-4.jpg">
+          <img class="alignCenterIMG" src="content/business.jpg">
         </div>
       </div>
 
-    </div>
-
-    <!-- Custom Themed Divider -->
-    <div class="container-xl custom-linebreak-container" id="about">
-      <div class="custom-linebreak"></div>
-    </div>
-
-    <!-- About Title -->
-    <h2 class="work-title-text"><a class="work-title-sub-icon" href="https://www.instagram.com/cj.sandor/" target="_blank" ><i class="bi bi-instagram"></i></a> about </h2>
-
-    <!-- About Section -->
-    <div class="container-xl" id="about-section">
-      <div class="row">
-        <div class="col">
-
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="7000">
-                <img src="content/bellaboo-cropped.jpg" class="d-block w-100" alt="photo of a beautiful dog">
-              </div>
-              <div class="carousel-item" data-bs-interval="7000">
-                <img src="content/climbing.jpg" class="d-block w-100" alt="2 friends and cj climbing steep rocks">
-              </div>
-              <div class="carousel-item" data-bs-interval="7000">
-                <img src="content/cooking.JPG" class="d-block w-100" alt="2 friends and cj making dumplings">
-              </div>
-              <div class="carousel-item" data-bs-interval="7000">
-                <img src="content/hiking.jpg" class="d-block w-100" alt="3 friends and cj high up on a cliff side">
-              </div>
-              <div class="carousel-item" data-bs-interval="7000">
-                <img src="content/football.jpg" class="d-block w-100" alt="scene from cjs rutgers football game">
-              </div>
-              <div class="carousel-item" data-bs-interval="7000">
-                <img src="content/view.jpg" class="d-block w-100" alt="view of forest while cj hikes">
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-        <div class="col about-text-items">
-          <p class="about-text">
-
-            <span class="about-text-bold"><span class="sst">cj</span> is a programmer and student based in new jersey studying at <span class="srt"><a href="https://newbrunswick.rutgers.edu/" target="_blank">Rutgers University</a></span></span>
-            <br>
-            <br>“when i'm not busy with my studies, you can find me in the great outdoors of new jersey or new york hiking. i'm an enthusiastic philadelphia eagles fan, so if i'm not out and about, i'm likely booing the cowboys.
-            back home in new jersey, life is always bustling with the joyous energy of my three big dogs, my favorite being bella. whether i'm playing with them or just lounging around house with them, they're a big part of my life.
-            <br>i highly value the moments i share with my friends and family. they are the cornerstone of my life, providing a network of support, endless joy, and laughter”</p>
-        </div>
-      </div>
     </div>
 
     <!-- Custom Themed Divider -->
@@ -200,9 +151,11 @@
                   <span><a href="content/Christopher_Sandor_NOCTI_Certification.pdf" :download="z.downloadTitle" class="removeAtagStyles"><i class="bi bi-filetype-pdf"></i>PDF Download</a></span>
                   </h1>
               </div>
+
               </div>
             </div>
 
+            </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -210,15 +163,41 @@
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body" id="career">
+
+                  <div class="row cert-row" v-for="(j, index) in object_4">
+                    <div class="col cert-img">
+                      <a :href="j.iconLink" target="_blank"><img class="cert-img-item" :src="j.icon"></a>
+                    </div>
+                    <div class="col cert-text-wrapper">
+                      <h1 class="cert-text-title">({{object_4[index].type}}) {{object_4[index].job}}</h1>
+                      <h1 class="cert-text"><p class="timeStyleWork"> {{object_4[index].jobTitle}} ({{object_4[index].year}}) </p> {{object_4[index].text}}</h1>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <span><i class="bi bi-file-earmark-pdf-fill"></i> résumé (pdf)</span>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
+
+                  <object data="content/SandorResume-02-01-2024.pdf" type="application/pdf" width="100%" height="800px">
+                    <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
+                  </object>
+
                 </div>
               </div>
             </div>
 
           </div>
         </div>
-
-      </div>
 
     <!-- Custom Themed Divider -->
       <div class="container-xl custom-linebreak-container">
@@ -257,10 +236,81 @@
 
     </div>
 
-     <!-- White Space; Spacer -->
-     <div class="homeSpacer"></div>
+
+    <!-- Custom Themed Divider -->
+    <div class="container-xl custom-linebreak-container" id="work">
+      <div class="custom-linebreak"></div>
+    </div>
 
 
+    <!-- About Section -->
+    <div class="container-xl" id="about-section">
+      <div class="row">
+
+        <div id="about" class="card aboutCardSelector" style="width: 18rem; height: 18rem;">
+          <img src="content/sideBySide.jpg" class="card-img-top profileStyle" alt="...">
+        </div>
+
+
+        <div class="col about-text-items">
+          <p class="about-text">
+            <span class="work-title-text">about <span class="sst" style="color: black;">cj</span></span>
+            <br>
+            <br>When I'm not busy with my studies, I'm either in the gym or hiking in the mountains. My life is always bustling with the joyous energy of my three big dogs and wonderful friends and family. They are the cornerstone of my life, providing a network of support, endless joy, and laughter. I am forever grateful.</p>
+        </div>
+
+        <div class="card social-Card">
+          <div class="card-body">
+            <a href="mailto:chrisjsandor@gmail.com" target="_blank"> <i class="bi bi-envelope-at-fill gmailSocial"></i></a> <a href="https://www.linkedin.com/in/christopher-sandor-031622288" target="_blank"><i class="bi bi-linkedin linkedinSocial"></i></a> <a href="https://github.com/ChristopherSandor" target="_blank"><i class="bi bi-github githubSocial"></i></a> <a href="https://www.instagram.com/cj.sandor/" target="_blank"><i class="bi bi-instagram instaSocial"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Custom Themed Divider -->
+    <div class="container-xl custom-linebreak-container">
+    </div>
+
+    <div class="container-fluid" id="footer">
+
+          <!-- Custom Themed Divider -->
+    <div class="container-xl custom-linebreak-container-sm">
+    </div>
+
+      <div class="container-xl">
+        <div class="row">
+          <p class="footer-title" id="contact"><i class="bi bi-envelope-paper-fill"></i> get in contact</p>
+        </div>
+      <div class="card cardContactWrapper">
+        <div class="card-body cardContact">
+          <form action="https://formsubmit.co/chrisjsandor" method="POST">
+            <div class="row">
+              <div class="col-6" id="left-form">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col-6" id="right-form">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <textarea placeholder="Message..." class="form-control form-textBox" name="message" rows="10" required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary form-SendBtn"><i class="bi bi-send"></i> Send</button>
+          </form>
+        </div>
+      </div>
+      </div>
+
+    <!-- Custom Themed Divider -->
+    <div class="container-xl custom-linebreak-container-sm">
+    </div>
+
+    </div>
+
+  </div>
 
     <!-- main.js link -->
     <script src="js/main.js"></script>

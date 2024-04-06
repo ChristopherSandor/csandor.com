@@ -66,12 +66,13 @@ body{
     width: 375px!important;
     height: 525px!important;
     float: right;
+    border-radius: 25px;
 }
 #specialText{
     width: 100%;
     min-width: 557px!important;
 }
-@media (max-width: 991px) {
+@media (max-width: 1050px) {
 
     /* Old Code for the IMG, but this new code works for both IMG and TEXT */
     /* .imgOpenWrapper {
@@ -120,6 +121,11 @@ body{
 }
 .custom-linebreak-container{
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 125px;
     padding-bottom: 75px;
+}
+.custom-linebreak-container-sm{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }

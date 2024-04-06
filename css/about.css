@@ -15,11 +15,41 @@
 .about-text-bold{
     font-weight: 400;
     font-size: 36px;
+    color: black;
 }
-.carousel-item img{
-    max-width: 100%;
-    min-width: 400px;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.profileStyle{
+    border-radius: 50%;
+}
+.aboutCardSelector{
+    float: left;
+}
+
+@media (max-width: 850px) {
+    .aboutCardSelector{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.social-Card > .card-body{
+    text-align: right;
+    font-size: 36px;
+}
+.githubSocial{
+    color: #333;
+    margin-left: 10px;
+}
+.instaSocial{
+    color: #E1306C;
+    margin-left: 10px;
+}
+.linkedinSocial{
+    color: #0077b5;
+    margin-left: 10px;
+}
+.gmailSocial{
+    color: #FBBC05;
+    margin-left: 10px;
 }
