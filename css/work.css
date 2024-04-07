@@ -169,6 +169,16 @@ Opening Section Styles:
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 460px) {
+    .cert-img-item{
+        width: 320px!important;
+        height: auto;
+    }
+}
+
+
+
 .cert-img-item{
     justify-self: center;
 }
@@ -202,7 +212,7 @@ Opening Section Styles:
  .work-title-text{
     font-weight: 800;
     color: #4721FF;
-    font-size: min(42px, 7vw);
+    font-size: min(42px, 7vw)!important;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding-bottom: 40px;

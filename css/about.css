@@ -9,7 +9,7 @@
 }
 .about-text{
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: min(24px, 7vw);
     font-weight: 400;
 }
 .about-text-bold{

@@ -166,5 +166,29 @@
       "live": "",
       "about": "Compares different NYPD data of different arrests, looking at things such as, year, race, age, gender, frisked, etc",
       "active": "2023"
+    },
+    {
+      "name": "forensicAnalysis",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/forensicAnalysis",
+      "live": "",
+      "about": " identifying who a DNA sequence may belong to based on an unknown person’s DNA sequence and a DNA database",
+      "active": "2024"
+    },
+    {
+      "name": "climateEconJustice ",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/climateEconJustice",
+      "live": "",
+      "about": "Working with community data from various regions to explore the intersection of climate and economic justice",
+      "active": "2024"
+    },
+    {
+      "name": "gameOfLife",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/gameOfLife",
+      "live": "",
+      "about": "Conway Game of Life is a cellular discrete model of computation. The game consists of a game board (grid), each in one of two states, alive or dead",
+      "active": "2024"
     }
 ]
