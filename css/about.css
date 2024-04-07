@@ -1,5 +1,4 @@
 .about-text-items{
-    min-width: 400px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -9,8 +8,20 @@
 }
 .about-text{
     font-family: 'Raleway', sans-serif;
-    font-size: min(24px, 7vw);
+    font-size: min(20px, 4vw);
     font-weight: 400;
+}
+.about-text-bottom{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-wrap: normal;
+    overflow: hidden;
+    padding: 0!important;
+    --bs-card-spacer-y: 0!important;
+    --bs-card-spacer-: 0!important;
+    word-wrap: break-word!important;
+    overflow-wrap: break-word!important;
 }
 .about-text-bold{
     font-weight: 400;
