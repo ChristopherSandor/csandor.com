@@ -5,7 +5,16 @@
     "icon": "content/medi-solutions.png",
     "iconLink": "https://www.medi-solutions.org/",
     "text": "Managed and updated a comprehensive database for thousands of insurance agents and agencies ensuring accessibility. Support and maintain an online portal for Medi-Solutions agents and agencies, enhancing user experience. Contributed to the commission process, assisting in the calculation and processing of payments with accuracy. Developed and implemented VBA scripts to streamline the commission payment process, improving efficiency and reducing miscalculations Monitored equipment performance, ensuring it met operational standards and replaced as needed.",
-    "year": "2021-Present",
+    "year": "2021-2024",
     "type": "Job"
+    },
+    {
+    "job": "Withum Smith & Brown",
+    "jobTitle": "I.T Intern",
+    "icon": "content/withumlogo.png",
+    "iconLink": "https://www.withum.com/",
+    "text": "Helped build, track, upgrade, and manage laptops for all Withum employees and interns. I learned to communicate clearly between different departments and offices with employees regarding laptop order requirements. I worked and exposed myself to other offices and their goals and needs.",
+    "year": "2024-2024",
+    "type": "Internship"
     }
 ]

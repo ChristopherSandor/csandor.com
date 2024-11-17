@@ -1,43 +1,67 @@
 [
     {
-      "name": "portfolio-v5",
-      "type": 0,
-      "link": "https://github.com/ChristopherSandor/portfolio-v5",
-      "live": "https://christophersandor.github.io/portfolio-v5/",
-      "about": "A remastered look into my portfolio",
-      "active": "2022"
-    },
-    {
-      "name": "portfolio-v4",
-      "type": 2,
-      "link": "https://github.com/ChristopherSandor/portfolio-v4",
-      "live": "https://christophersandor.github.io/portfolio-v4/",
-      "about": "A new verison of my portfolio, and its dynamic this time!",
-      "active": "2022"
-    },
-    {
-      "name": "NetNinja-Tutorial",
-      "type": 2,
-      "link": "https://github.com/ChristopherSandor/NetNinja-Tutorial",
-      "live": "https://christophersandor.github.io/NetNinja-Tutorial/",
-      "about": "Followed a tutorial for a classwork assignment, learnt how to use JavaScript dynamically",
-      "active": "2021"
+      "name": "Traffic Light Concept",
+      "type": 7,
+      "link": "https://github.com/ChristopherSandor/trafficLight_Concept",
+      "live": "",
+      "about": "A traffic light schematic built with cross walk functionality",
+      "active": "2024"
     },
     {
       "name": "csandor.com",
       "type": 2,
       "link": "https://github.com/ChristopherSandor/csandor.com",
-      "live": "www.csandor.com",
+      "live": "https://csandor.com/",
       "about": "After many different creations of my portfilio for assignments; this will be the definitive one",
       "active": "2023 (Active)"
     },
     {
-      "name": "Minimo",
-      "type": 1,
-      "link": "https://github.com/ChristopherSandor/Minimo",
-      "live": "https://christophersandor.github.io/Minimo/",
-      "about": "A incomplete timed Final Project for my web design class",
-      "active": "2021"
+      "name": "JavaScript-JSON-HTTP-Requests",
+      "type": 5,
+      "link": "https://github.com/ChristopherSandor/JavaScript-JSON-HTTP-Requests",
+      "live": "https://christophersandor.github.io/JavaScript-JSON-HTTP-Requests/",
+      "about": "Tests for all JavaScript, JSON and HTTP Requests working in the background",
+      "active": "2022"
+    },
+    {
+      "name": "Spiderverse",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/Spiderverse",
+      "live": "",
+      "about": "This was a Data Structures Assignment at Rutgers (CS112)",
+      "active": "2024"
+    },
+    {
+      "name": "Forensic Analysis",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/forensicAnalysis",
+      "live": "",
+      "about": "This was a Data Structures Assignment at Rutgers (CS112)",
+      "active": "2024"
+    },
+    {
+      "name": "Climate Econ Justice",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/climateEconJustice",
+      "live": "",
+      "about": "This was a Data Structures Assignment at Rutgers (CS112)",
+      "active": "2024"
+    },
+    {
+      "name": "Game Of Life",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/gameOfLife",
+      "live": "",
+      "about": "This was a Data Structures Assignment at Rutgers (CS112)",
+      "active": "2024"
+    },
+    {
+      "name": "NYPD Stop And Frisk",
+      "type": 3,
+      "link": "https://github.com/ChristopherSandor/NYPD-StopAndFrisk",
+      "live": "",
+      "about": "This was a Intro to Comp Sci. Assignment at Rutgers (CS111)",
+      "active": "2024"
     },
     {
       "name": "Sandor-p3",
@@ -54,141 +78,6 @@
       "live": "https://christophersandor.github.io/UniqueCreteSite/",
       "about": "A template used to create a website for UniqueCrete, a company for one of the teachers at Freehold Borough High School",
       "active": "2022"
-    },
-    {
-      "name": "portfolio-v5.5",
-      "type": 2,
-      "link": "https://github.com/ChristopherSandor/portfolio-v5.5",
-      "live": "https://christophersandor.github.io/portfolio-v5.5/",
-      "about": "Just a touch up and different look on portfolio-v5 ",
-      "active": "2023"
-    },
-    {
-      "name": "JavaScript-JSON-HTTP-Requests",
-      "type": 5,
-      "link": "https://github.com/ChristopherSandor/JavaScript-JSON-HTTP-Requests",
-      "live": "https://christophersandor.github.io/JavaScript-JSON-HTTP-Requests/",
-      "about": "Tests for all JavaScript, JSON and HTTP Requests working in the background",
-      "active": "2022"
-    },
-    {
-      "name": "Gravitational Force",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/Gravitational-Force",
-      "live": "",
-      "about": "First Coding Assignment at Rutgers; using very simple math operators",
-      "active": "2023"
-    },
-    {
-      "name": "Palindrome",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/Palindrome",
-      "live": "",
-      "about": "Checking inputs from console without using 'if statements'",
-      "active": "2023"
-    },
-    {
-      "name": "Dog Walker",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/Dog-Walker",
-      "live": "",
-      "about": "A fun project calculating dog walking routes",
-      "active": "2023"
-    },
-    {
-      "name": "Rutgers Buses",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/Buses",
-      "live": "",
-      "about": "Finding patterns in bus numbers and figuring out the route of the bus",
-      "active": "2023"
-    },
-    {
-      "name": "Rutgers BusStop",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/BusStop",
-      "live": "",
-      "about": "Finding possible Bus Stops from many different inputs",
-      "active": "2023"
-    },
-    {
-      "name": "Staircase Builder",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/StaircaseBuilder",
-      "live": "",
-      "about": "A stair case builder, builds from number of bricks inputed, from bottom right to top left",
-      "active": "2023"
-    },
-    {
-      "name": "Air Particles",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/Air-Particles",
-      "live": "",
-      "about": "Checking air particles from given data and comparing it to define values",
-      "active": "2023"
-    },
-    {
-      "name": "ISBN",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/ISBN",
-      "live": "",
-      "about": "Calculating and creating custome ISBN values for different books",
-      "active": "2023"
-    },
-    {
-      "name": "Communities",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/Communities",
-      "live": "",
-      "about": "Looking at data in an CSV files and looking at trends appearing in different communities",
-      "active": "2023"
-    },
-    {
-      "name": "Recursive Append",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/Recursive-Append",
-      "live": "",
-      "about": "Recursively appends strings, (first Recursive project)",
-      "active": "2023"
-    },
-    {
-      "name": "DNA",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/DNA",
-      "live": "",
-      "about": "Compares DNA (STR's), looking at parents and determining matches in others and gene types",
-      "active": "2023"
-    },
-    {
-      "name": "NYPD - Stop And Frisk",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/NYPD-StopAndFrisk",
-      "live": "",
-      "about": "Compares different NYPD data of different arrests, looking at things such as, year, race, age, gender, frisked, etc",
-      "active": "2023"
-    },
-    {
-      "name": "forensicAnalysis",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/forensicAnalysis",
-      "live": "",
-      "about": " identifying who a DNA sequence may belong to based on an unknown person’s DNA sequence and a DNA database",
-      "active": "2024"
-    },
-    {
-      "name": "climateEconJustice ",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/climateEconJustice",
-      "live": "",
-      "about": "Working with community data from various regions to explore the intersection of climate and economic justice",
-      "active": "2024"
-    },
-    {
-      "name": "gameOfLife",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/gameOfLife",
-      "live": "",
-      "about": "Conway Game of Life is a cellular discrete model of computation. The game consists of a game board (grid), each in one of two states, alive or dead",
-      "active": "2024"
     }
+
 ]

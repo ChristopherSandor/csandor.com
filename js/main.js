@@ -57,6 +57,8 @@ const vue_app = Vue.createApp({
                         return 'bi-filetype-json';
                     case 6:
                         return 'bi-filetype-ai';
+                    case 7:
+                        return 'bi-file-earmark-binary';
                     default:
                         return 'bi bi-folder';
                   }
@@ -100,6 +102,9 @@ const vue_app = Vue.createApp({
                     case 6:
                         // Illustrator
                         return '#ff9a00';
+                    case 7:
+                        // Altium
+                        return '#487A25';
                     default:
                         // Folder (Project)
                         return '#bc3200';
