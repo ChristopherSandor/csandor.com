@@ -6,7 +6,7 @@
     --bs-gutter-x: 0rem;
 }
 .navbar-brand{
-    font-size: min(42px, 7vw);
+    font-size: min(36px, 6vw);
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
     color: #4721FF;

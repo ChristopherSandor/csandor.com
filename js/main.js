@@ -58,7 +58,11 @@ const vue_app = Vue.createApp({
                     case 6:
                         return 'bi-filetype-ai';
                     case 7:
-                        return 'bi-file-earmark-binary';
+                        return 'bi-cpu';
+                    case 8: 
+                        return 'bi-filetype-py';
+                    case 9:
+                        return 'bi bi-file-earmark-code';
                     default:
                         return 'bi bi-folder';
                   }
@@ -89,10 +93,10 @@ const vue_app = Vue.createApp({
                         return '#FD6000';
                     case 2:
                         // JavaScript
-                        return '#ffde24';
+                        return '#F7DF1D';
                     case 3:
                         // Java
-                        return '#1665bf';
+                        return '#F34336';
                     case 4:
                         // CSS
                         return '#28a9df';
@@ -104,7 +108,14 @@ const vue_app = Vue.createApp({
                         return '#ff9a00';
                     case 7:
                         // Altium
-                        return '#487A25';
+                        return '#0C5940';
+                    case 8:
+                        // Python
+                        return '#38709F';
+                    case 9:
+                        // C++
+                        return '#ff006e';  
+                    
                     default:
                         // Folder (Project)
                         return '#bc3200';

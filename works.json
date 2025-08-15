@@ -1,10 +1,34 @@
 [
     {
+      "name": "Ground-Station-Control-Program",
+      "type": 8,
+      "link": "https://github.com/ChristopherSandor/Ground-Station-Control-Program",
+      "live": "",
+      "about": "Designing and coding the end-to-end control systems integrating sensors, valves, motors, and microcontrollers over serial links to a central control computer",
+      "active": "2025"
+    },
+    {
+      "name": "MicroController-System-Protocols",
+      "type": 9,
+      "link": "https://github.com/ChristopherSandor/MicroController-System-Protocols",
+      "live": "",
+      "about": "The purpose of Control Protocols is to communicate and to the Ground Station Program in order for both to commucated flawlessly (two way)",
+      "active": "2025"
+    },
+    {
+      "name": "Electric Car Charging Circuit",
+      "type": 7,
+      "link": "https://github.com/ChristopherSandor/RFR_ChargingCircuit_2025",
+      "live": "",
+      "about": "A Team Project (RFR), making a custom circuit for our electric car to be compatible with the J1772 Plug Standard",
+      "active": "2025"
+    },
+    {
       "name": "Traffic Light Concept",
       "type": 7,
       "link": "https://github.com/ChristopherSandor/trafficLight_Concept",
       "live": "",
-      "about": "A traffic light schematic built with cross walk functionality",
+      "about": "A traffic light schematic built with cross walk functionality, first Altium self project",
       "active": "2024"
     },
     {
@@ -13,15 +37,7 @@
       "link": "https://github.com/ChristopherSandor/csandor.com",
       "live": "https://csandor.com/",
       "about": "After many different creations of my portfilio for assignments; this will be the definitive one",
-      "active": "2023 (Active)"
-    },
-    {
-      "name": "JavaScript-JSON-HTTP-Requests",
-      "type": 5,
-      "link": "https://github.com/ChristopherSandor/JavaScript-JSON-HTTP-Requests",
-      "live": "https://christophersandor.github.io/JavaScript-JSON-HTTP-Requests/",
-      "about": "Tests for all JavaScript, JSON and HTTP Requests working in the background",
-      "active": "2022"
+      "active": "2023"
     },
     {
       "name": "Spiderverse",
@@ -38,46 +54,5 @@
       "live": "",
       "about": "This was a Data Structures Assignment at Rutgers (CS112)",
       "active": "2024"
-    },
-    {
-      "name": "Climate Econ Justice",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/climateEconJustice",
-      "live": "",
-      "about": "This was a Data Structures Assignment at Rutgers (CS112)",
-      "active": "2024"
-    },
-    {
-      "name": "Game Of Life",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/gameOfLife",
-      "live": "",
-      "about": "This was a Data Structures Assignment at Rutgers (CS112)",
-      "active": "2024"
-    },
-    {
-      "name": "NYPD Stop And Frisk",
-      "type": 3,
-      "link": "https://github.com/ChristopherSandor/NYPD-StopAndFrisk",
-      "live": "",
-      "about": "This was a Intro to Comp Sci. Assignment at Rutgers (CS111)",
-      "active": "2024"
-    },
-    {
-      "name": "Sandor-p3",
-      "type": 0,
-      "link": "https://github.com/ChristopherSandor/Sandor-p3",
-      "live": "https://christophersandor.github.io/Sandor-p3/",
-      "about": "The third and final assignment for the NJIT web design course",
-      "active": "2023"
-    },
-    {
-      "name": "Unique Crete",
-      "type": 0,
-      "link": "https://github.com/ChristopherSandor/UniqueCreteSite",
-      "live": "https://christophersandor.github.io/UniqueCreteSite/",
-      "about": "A template used to create a website for UniqueCrete, a company for one of the teachers at Freehold Borough High School",
-      "active": "2022"
     }
-
 ]

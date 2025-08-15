@@ -1,33 +1,33 @@
 [
     {
       "name": "Altium",
-      "color": "#487A25",
-      "path": "bi-file-earmark-binary"
+      "color": "#0C5940",
+      "path": "bi-cpu"
     },
     {
       "name": "JavaScript",
-      "color": "#ffde24",
+      "color": "#F7DF1D",
       "path": "bi-filetype-js"
     },
     {
       "name": "Java",
-      "color": "#1665bf",
+      "color": "#F34336",
       "path": "bi-filetype-java"
     },
     {
       "name": "Python",
-      "color": "#ffca1d",
+      "color": "#38709F",
       "path": "bi-filetype-py"
+    },
+    {
+      "name": "C++",
+      "color": "#ff006e",
+      "path": "bi-file-earmark-code"
     },
     {
       "name": "JSON",
       "color": "#9076a6",
       "path": "bi-filetype-json"
-    },
-    {
-      "name": "SCSS",
-      "color": "#be608b",
-      "path": "bi-filetype-scss"
     },
     {
       "name": "HTML",
