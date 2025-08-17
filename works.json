@@ -1,6 +1,6 @@
 [
     {
-      "name": "Ground-Station-Control-Program",
+      "name": "★ Ground-Control-Program",
       "type": 8,
       "link": "https://github.com/ChristopherSandor/Ground-Station-Control-Program",
       "live": "",
@@ -8,7 +8,7 @@
       "active": "2025"
     },
     {
-      "name": "MicroController-System-Protocols",
+      "name": "★ MicroController-Protocols",
       "type": 9,
       "link": "https://github.com/ChristopherSandor/MicroController-System-Protocols",
       "live": "",
@@ -16,7 +16,7 @@
       "active": "2025"
     },
     {
-      "name": "Electric Car Charging Circuit",
+      "name": "★ Electric Car Charging Circuit",
       "type": 7,
       "link": "https://github.com/ChristopherSandor/RFR_ChargingCircuit_2025",
       "live": "",

@@ -192,14 +192,14 @@
 
     <h2 class="work-title-text"><a class="work-title-sub-icon" href="https://github.com/ChristopherSandor" target="_blank"><i class="bi bi-github"></i></a> projects </h2>
 
-    <!-- Works Section -->
+    <!-- projects Section -->
     <div id="workSection" class="container-xl">
 
       <div class="row">
         <div class="col cardColWrapper" v-for="(x, index) in object" data-aos="fade-up" >
         <div class="card" :class="typeOfProject(x)" style="width: 360px; height: 420px;">
 
-          <i :class="typeOfIcon(x)" :style="textOfColor(x)" class="card-img-top"></i>
+          <i :class="[typeOfIcon(x), typeOfBackground(x)]" :style="textOfColor(x)" class="card-img-top"></i>
           <div class="card-body">
             <h5 class="card-title">{{object[index].name}}</h5>
             <p class="card-text card-text-top">{{object[index].about}}</p>
@@ -242,13 +242,13 @@
             <br>
             <div class="card">
               <div class="about-text-bottom">
-                  When I'm not busy with my studies, I'm either in the gym or hiking in the mountains. My life is always bustling with the joyous energy of my three big dogs and wonderful friends and family. They are the cornerstone of my life, providing a network of support, endless joy, and laughter. I am forever grateful.
+                  When I’m not busy with my studies, you’ll often find me in the gym, hiking in the mountains, or enjoying the waves at the Jersey Shore. I love spending time with my lovely German Shepherd, Shepp, whose energy fills my life with joy. My days are also brightened by wonderful friends and family, the true cornerstone of my life, providing endless support, laughter, and love. Beyond the outdoors, I have a passion for listening to live jazz music, the thrill of surfing, enjoying the newest movies, golfing, and the fun of playing video games competitively. These pursuits, along with my friends and family make up the vibrant rhythm of my life. I am forever grateful.
               </div>
             </div>
         </div>
         <div class="card social-Card">
           <div class="card-body">
-            <a href="mailto:chrisjsandor@gmail.com" target="_blank"> <i class="bi bi-envelope-at-fill gmailSocial"></i></a> <a href="https://www.linkedin.com/in/christopher-sandor-031622288" target="_blank"><i class="bi bi-linkedin linkedinSocial"></i></a> <a href="https://github.com/ChristopherSandor" target="_blank"><i class="bi bi-github githubSocial"></i></a> <a href="https://www.instagram.com/cj.sandor/" target="_blank"><i class="bi bi-instagram instaSocial"></i></a>
+            <a href="mailto:chrisjsandor@gmail.com" target="_blank"> <i class="bi bi-envelope-arrow-up gmailSocial"></i></a> <a href="https://www.linkedin.com/in/christopher-sandor-031622288" target="_blank"><i class="bi bi-linkedin linkedinSocial"></i></a> <a href="https://github.com/ChristopherSandor" target="_blank"><i class="bi bi-github githubSocial"></i></a>
           </div>
         </div>
 
